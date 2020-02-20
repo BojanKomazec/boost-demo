@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project(boost-demo)
+set(SOURCE src/main.cpp)
+set(BOOST_ROOT "$HOME/dev/boost_1_72_0")
+include_directories(include)
+add_executable(${PROJECT_NAME} ${SOURCE})
